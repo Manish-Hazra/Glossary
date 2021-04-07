@@ -35,7 +35,7 @@ public class glossary
     public static void main(String args[]) throws IOException
     {
         search s=new search();
-        File fl = new File("C:\\Users\\MANISH\\Desktop\\text.txt");
+        File fl = new File("read.txt");
         ArrayList<Integer> r=new ArrayList<Integer>();
         Scanner sc=new Scanner(System.in);
         TreeMap<String,ArrayList<Integer>> t=new TreeMap<String,ArrayList<Integer>>();
